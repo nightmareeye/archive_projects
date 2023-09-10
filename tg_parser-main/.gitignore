@@ -1,0 +1,6 @@
+data/*
+text.txt
+.idea
+__pycache__
+src/config.py
+src/session.session
