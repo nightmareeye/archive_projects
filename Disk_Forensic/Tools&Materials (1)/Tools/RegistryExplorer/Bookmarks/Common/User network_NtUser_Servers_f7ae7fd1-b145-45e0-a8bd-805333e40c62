@@ -1,1 +1,0 @@
-{"Type":"User","Name":"Servers","KeyPath":"Software\\Microsoft\\Terminal Server Client\\Servers","ShortDescription":"List of RDP servers","LongDescription":"Can also include a list of username hints","InternalID":"f7ae7fd1-b145-45e0-a8bd-805333e40c62","HiveType":"NtUser","Category":"User network"}
