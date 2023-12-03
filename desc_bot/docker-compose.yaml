@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  artamonov_new:
+    container_name: artamonov_new
+    build: ./
+    command: >
+      sh -c "python3 main.py"
+    depends_on:
+      - db_artamonov_new
+    network_mode: host
+    volumes:
+      - .:/apps/core
+    env_file:
+      - .env
+
+  db_artamonov_new:
+    image: postgres:15-alpine
+    container_name: db_artamonov_new
+    volumes:
+      - pgdata:/var/lib/postgresql/data/
+    ports:
+      - "5433:5433"
+    env_file:
+      - .env
+
+volumes:
+  pgdata:

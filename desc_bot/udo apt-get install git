@@ -1,0 +1,21 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Wed 2023-09-06 12:54:34 UTC; 6s ago
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: https://docs.docker.com
+   Main PID: 2827948 (dockerd)
+      Tasks: 9
+     Memory: 28.2M
+        CPU: 418ms
+     CGroup: /system.slice/docker.service
+             └─2827948 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+Sep 06 12:54:33 v1628844.hosted-by-vdsina.ru systemd[1]: Starting Docker Application Container Engine...
+Sep 06 12:54:33 v1628844.hosted-by-vdsina.ru dockerd[2827948]: time="2023-09-06T12:54:33.559604444Z" level=info msg="Starting up"
+Sep 06 12:54:33 v1628844.hosted-by-vdsina.ru dockerd[2827948]: time="2023-09-06T12:54:33.561003633Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Sep 06 12:54:33 v1628844.hosted-by-vdsina.ru dockerd[2827948]: time="2023-09-06T12:54:33.731539841Z" level=info msg="Loading containers: start."
+Sep 06 12:54:34 v1628844.hosted-by-vdsina.ru dockerd[2827948]: time="2023-09-06T12:54:34.123722502Z" level=info msg="Loading containers: done."
+Sep 06 12:54:34 v1628844.hosted-by-vdsina.ru dockerd[2827948]: time="2023-09-06T12:54:34.157304745Z" level=info msg="Docker daemon" commit=1a79695 graphdriver=overlay2 version=24.0.6
+Sep 06 12:54:34 v1628844.hosted-by-vdsina.ru dockerd[2827948]: time="2023-09-06T12:54:34.157819324Z" level=info msg="Daemon has completed initialization"
+Sep 06 12:54:34 v1628844.hosted-by-vdsina.ru dockerd[2827948]: time="2023-09-06T12:54:34.225302535Z" level=info msg="API listen on /run/docker.sock"
+Sep 06 12:54:34 v1628844.hosted-by-vdsina.ru systemd[1]: Started Docker Application Container Engine.

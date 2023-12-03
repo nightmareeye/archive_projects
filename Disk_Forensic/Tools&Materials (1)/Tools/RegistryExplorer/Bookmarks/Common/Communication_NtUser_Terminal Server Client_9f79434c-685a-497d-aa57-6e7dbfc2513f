@@ -1,0 +1,1 @@
+{"Type":"User","Name":"Terminal Server Client","KeyPath":"Software\\Microsoft\\Terminal Server Client","ShortDescription":"Contains RDP history","LongDescription":"Default key contains MRU list, Servers contains hostname and username information","InternalID":"9f79434c-685a-497d-aa57-6e7dbfc2513f","HiveType":"NtUser","Category":"Communication"}

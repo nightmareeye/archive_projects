@@ -1,0 +1,9 @@
+version: '3'
+services:
+  telegram-bot:
+    image: mphelp_bot
+    restart: always
+    volumes:
+      - database:/data
+volumes:
+  database:

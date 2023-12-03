@@ -1,0 +1,4 @@
+﻿  CompClubService.cpp
+C:\Users\Mrrex\OneDrive\Рабочий стол\nfsdk-demo-1.6.6.1\CompClubService\CompClubService.cpp(60,17): warning C4244: return: преобразование "WPARAM" в "int", возможна потеря данных
+MSVCRTD.lib(exe_main.obj) : error LNK2019: ссылка на неразрешенный внешний символ main в функции "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ).
+C:\Users\Mrrex\OneDrive\Рабочий стол\nfsdk-demo-1.6.6.1\CompClubService\x64\Debug\CompClubService.exe : fatal error LNK1120: неразрешенных внешних элементов: 1

@@ -1,0 +1,52 @@
+{
+  "text": {
+    "waitAnswer": "⌛",
+    "start_msg": "В нашем боте\uD83E\uDD16 Вы можете сгенерировать SEO описание✅  для Вашей карточки товара, а так же задать любой вопрос в ChatGPT\uD83E\uDD78\nНадеемся наш инструмент очень поможет Вам в достижении поставленных задач!\uD83C\uDF1F",
+    "noTokens": "Кончились токены",
+    "largeContext": "Обновите контекст!\n/restart",
+
+    "generate": "Укажите ссылку на товар ✍️",
+    "desc_len": "Укажите длину описания \uD83D\uDCC3",
+    "tone": "Укажите тональность \uD83C\uDF21",
+    "keywords": "Укажи ключевые слова \uD83D\uDD11",
+    "choose_prod_plus": "Укажите преимущества \uD83D\uDE80",
+    "need_stop_words": "Нужны стоп слова? ❌",
+    "choose_stop_words": "Укажите стоп слова ❌",
+
+    "gpt": "Начинайте общение!",
+    "contacts": "По всем вопросам обращайтесь к \uD83D\uDC49 https://t.me/TEXPOD_MPHelp",
+    "restart": "Контекст обновлен!",
+
+    "no_sub": "Для использования бота требуется подписка на канал!"
+
+
+  },
+  "buts": {
+    "instruction": "Инструкция \uD83D\uDCD5",
+    "generate": "Сгенерировать \uD83C\uDF00",
+    "contacts": "Контакты ☎️",
+    "gpt": "ChatGPT\uD83E\uDD16",
+
+    "short_paragraph": "1 короткий абзац",
+    "middle_paragraph": "1000 символов",
+    "big_paragraph": "2000 символов",
+
+    "neutral_tone": "Нейтральный",
+    "optimistic_tone": "Оптимистичный",
+    "friendly_tone": "Дружелюбный",
+    "playful_tone": "Шутливый",
+    "sympathetic_tone": "Сочувствующий",
+    "assertive_tone": "Напористый",
+    "formal_tone": "Формальный",
+
+    "back": "Назад↩️",
+    "yes": "Да✅",
+    "no": "Нет⛔️",
+    "main_menu": "Меню",
+    "instr_left": "⬅️",
+    "instr_right": "➡️",
+    "subscribe": "Подписаться",
+    "check_sub": "Проверить подписку"
+
+  }
+}
